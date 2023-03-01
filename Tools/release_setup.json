@@ -10,6 +10,7 @@
       "/README.md",
       "/LICENSE.md",
       "{COMPILED_BINARY}",
+      "bin/Release/{PACKAGE_NAME}.xml",
       "{MINIAVC_VERSION_FILE}",
       "/Binaries/KSP2Dev_Utils*",
       "/settings.json"
