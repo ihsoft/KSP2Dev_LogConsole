@@ -1,0 +1,5 @@
+--project=<create>
+--login=ihsoft
+--changelog=../CHANGELOG.md
+--ksp_version=latest
+--archive=../KSPDev_LogConsole_v1.0.zip

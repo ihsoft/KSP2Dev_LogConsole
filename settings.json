@@ -1,0 +1,56 @@
+"CollapseLogAggregator" : {
+	"maxLogRecords" : "300",
+	"rawBufferSize" : "1000"
+},
+"LogFilter" : {
+},
+"LogInterceptor" : {
+	"enableInterception" : "True",
+	"ExactMatchOverride" : [
+		"UnityEngine.Application.CallLogCallback",
+		"UnityEngine.MonoBehaviour.print"
+	],
+	"PrefixMatchOverride" : [
+		"UnityEngine.Debug.",
+		"UnityEngine.DebugLogHandler.",
+		"UnityEngine.Logger.",
+		"KSP.Logging.KspLog.",
+		"KSP.Logging.GlobalLog.",
+		"KSP2Dev.ConfigUtils.ConfigAccessor.",
+		"KSP2Dev.LogUtils.HostedDebugLog.",
+		"KSP2Dev.LogUtils.DebugEx."
+	]
+},
+"PersistentLog" : {
+	"enableLogger" : "True",
+	"logFilePrefix" : "KSPDev-LOG",
+	"logFilesPath" : "KSPDev_logs",
+	"logTsFormat" : "yyMMdd\\THHmmss",
+	"maxLogRecords" : "300",
+	"rawBufferSize" : "1000",
+	"writeErrorFile" : "True",
+	"writeInfoFile" : "True",
+	"writeWarningFile" : "True",
+	"cleanupPolicy" : {
+		"maxAgeHours" : "168",
+		"totalFiles" : "30",
+		"totalSizeMb" : "100"
+	}
+},
+"PlainLogAggregator" : {
+	"maxLogRecords" : "300",
+	"rawBufferSize" : "1000"
+},
+"SmartLogAggregator" : {
+	"maxLogRecords" : "300",
+	"rawBufferSize" : "1000"
+},
+"UI" : {
+	"consoleToggleKey" : "BackQuote",
+	"ColorSchema" : {
+		"errorLog" : "1,0,0,1",
+		"exceptionLog" : "1,0,1,1",
+		"infoLog" : "1,1,1,1",
+		"warningLog" : "1,0.921568632,0.0156862754,1"
+	}
+}

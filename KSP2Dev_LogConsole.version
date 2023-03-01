@@ -1,0 +1,27 @@
+{
+    "CHANGE_LOG_URL": "https://github.com/ihsoft/KSP2Dev_LogConsole/tree/master/CHANGELOG.md", 
+    "DOWNLOAD": "https://github.com/ihsoft/KSP2Dev_LogConsole/releases", 
+    "KSP_VERSION": {
+        "MAJOR": 2, 
+        "MINOR": 0, 
+        "PATCH": 0
+    }, 
+    "KSP_VERSION_MAX": {
+        "MAJOR": 2, 
+        "MINOR": 99, 
+        "PATCH": 99
+    }, 
+    "KSP_VERSION_MIN": {
+        "MAJOR": 2, 
+        "MINOR": 0, 
+        "PATCH": 0
+    }, 
+    "NAME": "KSP2Dev LogConsole", 
+    "URL": "https://raw.githubusercontent.com/ihsoft/KSP2Dev_LogConsole/master/KSPDev_LogConsole.version", 
+    "VERSION": {
+        "BUILD": 0, 
+        "MAJOR": 1, 
+        "MINOR": 0, 
+        "PATCH": 0
+    }
+}

@@ -1,0 +1,8 @@
+Source/bin
+Source/obj
+
+Help
+Release
+*.zip
+
+**/wrk

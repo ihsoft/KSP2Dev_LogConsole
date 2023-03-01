@@ -1,0 +1,18 @@
+{
+  "JSON_SCHEMA_VERSION": "1.0",
+  "PACKAGE_NAME": "KSP2Dev_LogConsole",
+  "SHELL_COMPILE_BINARY_SCRIPT" : "make_binary_logconsole.cmd",
+  "RELEASE_MOD_FOLDER" : "KSP2Dev_LogConsole",
+  "MINIAVC_VERSION_FILE" : "/KSP2Dev_LogConsole.version",
+  "RELEASE_NAME_FREE_FORMAT" : "{PACKAGE_NAME}_v{0}.{1}",
+  "STRUCTURE" : {
+    "" : [
+      "/README.md",
+      "/LICENSE.md",
+      "{COMPILED_BINARY}",
+      "{MINIAVC_VERSION_FILE}",
+      "/Binaries/KSP2Dev_Utils*",
+      "/settings.json"
+    ]
+  }
+}

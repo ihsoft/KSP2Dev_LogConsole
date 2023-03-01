@@ -1,0 +1,7 @@
+--user=ihsoft
+--repo=KSP2Dev_LogConsole
+--token=<secret>
+--changelog=../CHANGELOG.md
+--as_draft
+--title=LogConsole v{tag}
+--archive=../KSP2Dev_LogConsole_v1.0.zip
